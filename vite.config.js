@@ -190,7 +190,7 @@ logger.error = (msg, options) => {
 }
 
 export default defineConfig({
-	base: '/Custom_Crafts_Apk/',
+	base: '/custom_crafts_Apk/',
 	customLogger: logger,
 	plugins: [
 		...(isDev ? [inlineEditPlugin(), editModeDevPlugin()] : []),
